@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.pet-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pet-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  background: #fff;
+}
+
+.pet-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
